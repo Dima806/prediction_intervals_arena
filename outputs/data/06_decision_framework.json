@@ -1,0 +1,57 @@
+{
+  "nominal_coverage": 0.9,
+  "coverage_report": [
+    {
+      "method": "normal",
+      "coverage": 0.881,
+      "nominal": 0.9,
+      "mean_width": 15.00665777970229
+    },
+    {
+      "method": "quantile_regression",
+      "coverage": 0.931,
+      "nominal": 0.9,
+      "mean_width": 15.116728326096247
+    },
+    {
+      "method": "gbm_quantile",
+      "coverage": 0.902,
+      "nominal": 0.9,
+      "mean_width": 13.700224303058562
+    },
+    {
+      "method": "split_conformal",
+      "coverage": 0.9015,
+      "nominal": 0.9,
+      "mean_width": 16.998269237766472
+    },
+    {
+      "method": "adaptive_conformal",
+      "coverage": 0.9295,
+      "nominal": 0.9,
+      "mean_width": 15.729466883394114
+    }
+  ],
+  "decision_rules": [
+    {
+      "situation": "Clean, constant-variance, roughly normal errors",
+      "recommendation": "Textbook normal interval - fine and cheap"
+    },
+    {
+      "situation": "Error size varies across the range",
+      "recommendation": "Quantile regression, GBM quantiles, or adaptive conformal"
+    },
+    {
+      "situation": "A model you cannot or will not retrain",
+      "recommendation": "Wrap it in split conformal (needs only a calibration set)"
+    },
+    {
+      "situation": "A coverage guarantee for a high-stakes decision",
+      "recommendation": "Conformal - the only method that provides one"
+    },
+    {
+      "situation": "Always",
+      "recommendation": "Measure coverage on held-out data; an untested interval is decoration"
+    }
+  ]
+}

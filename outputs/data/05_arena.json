@@ -1,0 +1,423 @@
+{
+  "nominal_coverage": 0.9,
+  "arena": [
+    {
+      "structure": "homoscedastic",
+      "method": "normal",
+      "coverage": 0.884,
+      "nominal": 0.9,
+      "mean_width": 6.3977404448107675
+    },
+    {
+      "structure": "homoscedastic",
+      "method": "quantile_regression",
+      "coverage": 0.9386666666666666,
+      "nominal": 0.9,
+      "mean_width": 8.543804303237778
+    },
+    {
+      "structure": "homoscedastic",
+      "method": "gbm_quantile",
+      "coverage": 0.9026666666666666,
+      "nominal": 0.9,
+      "mean_width": 6.806842008287048
+    },
+    {
+      "structure": "homoscedastic",
+      "method": "bootstrap",
+      "coverage": 0.03933333333333333,
+      "nominal": 0.9,
+      "mean_width": 0.17770138289130144
+    },
+    {
+      "structure": "homoscedastic",
+      "method": "split_conformal",
+      "coverage": 0.9073333333333333,
+      "nominal": 0.9,
+      "mean_width": 6.881257704024464
+    },
+    {
+      "structure": "homoscedastic",
+      "method": "adaptive_conformal",
+      "coverage": 0.9186666666666666,
+      "nominal": 0.9,
+      "mean_width": 7.037703209815942
+    },
+    {
+      "structure": "heteroscedastic",
+      "method": "normal",
+      "coverage": 0.872,
+      "nominal": 0.9,
+      "mean_width": 15.016544776599202
+    },
+    {
+      "structure": "heteroscedastic",
+      "method": "quantile_regression",
+      "coverage": 0.9373333333333334,
+      "nominal": 0.9,
+      "mean_width": 15.07419101932894
+    },
+    {
+      "structure": "heteroscedastic",
+      "method": "gbm_quantile",
+      "coverage": 0.904,
+      "nominal": 0.9,
+      "mean_width": 13.766541131268488
+    },
+    {
+      "structure": "heteroscedastic",
+      "method": "bootstrap",
+      "coverage": 0.046,
+      "nominal": 0.9,
+      "mean_width": 0.35198770436800636
+    },
+    {
+      "structure": "heteroscedastic",
+      "method": "split_conformal",
+      "coverage": 0.9106666666666666,
+      "nominal": 0.9,
+      "mean_width": 17.330658086247297
+    },
+    {
+      "structure": "heteroscedastic",
+      "method": "adaptive_conformal",
+      "coverage": 0.9233333333333333,
+      "nominal": 0.9,
+      "mean_width": 15.069746918208587
+    },
+    {
+      "structure": "skewed",
+      "method": "normal",
+      "coverage": 0.9166666666666666,
+      "nominal": 0.9,
+      "mean_width": 6.164388745698332
+    },
+    {
+      "structure": "skewed",
+      "method": "quantile_regression",
+      "coverage": 0.9466666666666667,
+      "nominal": 0.9,
+      "mean_width": 8.143507246287568
+    },
+    {
+      "structure": "skewed",
+      "method": "gbm_quantile",
+      "coverage": 0.8993333333333333,
+      "nominal": 0.9,
+      "mean_width": 6.680465536164396
+    },
+    {
+      "structure": "skewed",
+      "method": "bootstrap",
+      "coverage": 0.034,
+      "nominal": 0.9,
+      "mean_width": 0.1604628179149759
+    },
+    {
+      "structure": "skewed",
+      "method": "split_conformal",
+      "coverage": 0.9066666666666666,
+      "nominal": 0.9,
+      "mean_width": 5.968255161438347
+    },
+    {
+      "structure": "skewed",
+      "method": "adaptive_conformal",
+      "coverage": 0.918,
+      "nominal": 0.9,
+      "mean_width": 6.353340314495469
+    },
+    {
+      "structure": "heavy_tailed",
+      "method": "normal",
+      "coverage": 0.9166666666666666,
+      "nominal": 0.9,
+      "mean_width": 6.015192162513117
+    },
+    {
+      "structure": "heavy_tailed",
+      "method": "quantile_regression",
+      "coverage": 0.9413333333333334,
+      "nominal": 0.9,
+      "mean_width": 7.717341238435955
+    },
+    {
+      "structure": "heavy_tailed",
+      "method": "gbm_quantile",
+      "coverage": 0.908,
+      "nominal": 0.9,
+      "mean_width": 5.704957728943255
+    },
+    {
+      "structure": "heavy_tailed",
+      "method": "bootstrap",
+      "coverage": 0.03133333333333333,
+      "nominal": 0.9,
+      "mean_width": 0.16946586851286083
+    },
+    {
+      "structure": "heavy_tailed",
+      "method": "split_conformal",
+      "coverage": 0.9113333333333333,
+      "nominal": 0.9,
+      "mean_width": 5.662109992294674
+    },
+    {
+      "structure": "heavy_tailed",
+      "method": "adaptive_conformal",
+      "coverage": 0.9146666666666666,
+      "nominal": 0.9,
+      "mean_width": 6.057706452298503
+    }
+  ],
+  "repeats": [
+    {
+      "seed": 100,
+      "method": "normal",
+      "coverage": 0.8786666666666667
+    },
+    {
+      "seed": 100,
+      "method": "split_conformal",
+      "coverage": 0.912
+    },
+    {
+      "seed": 100,
+      "method": "adaptive_conformal",
+      "coverage": 0.91
+    },
+    {
+      "seed": 101,
+      "method": "normal",
+      "coverage": 0.846
+    },
+    {
+      "seed": 101,
+      "method": "split_conformal",
+      "coverage": 0.874
+    },
+    {
+      "seed": 101,
+      "method": "adaptive_conformal",
+      "coverage": 0.9166666666666666
+    },
+    {
+      "seed": 102,
+      "method": "normal",
+      "coverage": 0.8786666666666667
+    },
+    {
+      "seed": 102,
+      "method": "split_conformal",
+      "coverage": 0.9146666666666666
+    },
+    {
+      "seed": 102,
+      "method": "adaptive_conformal",
+      "coverage": 0.9146666666666666
+    },
+    {
+      "seed": 103,
+      "method": "normal",
+      "coverage": 0.876
+    },
+    {
+      "seed": 103,
+      "method": "split_conformal",
+      "coverage": 0.9306666666666666
+    },
+    {
+      "seed": 103,
+      "method": "adaptive_conformal",
+      "coverage": 0.9086666666666666
+    },
+    {
+      "seed": 104,
+      "method": "normal",
+      "coverage": 0.8666666666666667
+    },
+    {
+      "seed": 104,
+      "method": "split_conformal",
+      "coverage": 0.8853333333333333
+    },
+    {
+      "seed": 104,
+      "method": "adaptive_conformal",
+      "coverage": 0.9033333333333333
+    },
+    {
+      "seed": 105,
+      "method": "normal",
+      "coverage": 0.872
+    },
+    {
+      "seed": 105,
+      "method": "split_conformal",
+      "coverage": 0.9253333333333333
+    },
+    {
+      "seed": 105,
+      "method": "adaptive_conformal",
+      "coverage": 0.926
+    },
+    {
+      "seed": 106,
+      "method": "normal",
+      "coverage": 0.8713333333333333
+    },
+    {
+      "seed": 106,
+      "method": "split_conformal",
+      "coverage": 0.9106666666666666
+    },
+    {
+      "seed": 106,
+      "method": "adaptive_conformal",
+      "coverage": 0.9086666666666666
+    },
+    {
+      "seed": 107,
+      "method": "normal",
+      "coverage": 0.858
+    },
+    {
+      "seed": 107,
+      "method": "split_conformal",
+      "coverage": 0.8806666666666667
+    },
+    {
+      "seed": 107,
+      "method": "adaptive_conformal",
+      "coverage": 0.8953333333333333
+    },
+    {
+      "seed": 108,
+      "method": "normal",
+      "coverage": 0.8673333333333333
+    },
+    {
+      "seed": 108,
+      "method": "split_conformal",
+      "coverage": 0.9073333333333333
+    },
+    {
+      "seed": 108,
+      "method": "adaptive_conformal",
+      "coverage": 0.902
+    },
+    {
+      "seed": 109,
+      "method": "normal",
+      "coverage": 0.854
+    },
+    {
+      "seed": 109,
+      "method": "split_conformal",
+      "coverage": 0.878
+    },
+    {
+      "seed": 109,
+      "method": "adaptive_conformal",
+      "coverage": 0.8973333333333333
+    },
+    {
+      "seed": 110,
+      "method": "normal",
+      "coverage": 0.886
+    },
+    {
+      "seed": 110,
+      "method": "split_conformal",
+      "coverage": 0.9193333333333333
+    },
+    {
+      "seed": 110,
+      "method": "adaptive_conformal",
+      "coverage": 0.908
+    },
+    {
+      "seed": 111,
+      "method": "normal",
+      "coverage": 0.86
+    },
+    {
+      "seed": 111,
+      "method": "split_conformal",
+      "coverage": 0.8933333333333333
+    },
+    {
+      "seed": 111,
+      "method": "adaptive_conformal",
+      "coverage": 0.9086666666666666
+    },
+    {
+      "seed": 112,
+      "method": "normal",
+      "coverage": 0.8746666666666667
+    },
+    {
+      "seed": 112,
+      "method": "split_conformal",
+      "coverage": 0.8893333333333333
+    },
+    {
+      "seed": 112,
+      "method": "adaptive_conformal",
+      "coverage": 0.924
+    },
+    {
+      "seed": 113,
+      "method": "normal",
+      "coverage": 0.8826666666666667
+    },
+    {
+      "seed": 113,
+      "method": "split_conformal",
+      "coverage": 0.902
+    },
+    {
+      "seed": 113,
+      "method": "adaptive_conformal",
+      "coverage": 0.9246666666666666
+    },
+    {
+      "seed": 114,
+      "method": "normal",
+      "coverage": 0.888
+    },
+    {
+      "seed": 114,
+      "method": "split_conformal",
+      "coverage": 0.908
+    },
+    {
+      "seed": 114,
+      "method": "adaptive_conformal",
+      "coverage": 0.9086666666666666
+    }
+  ],
+  "repeats_summary": [
+    {
+      "method": "adaptive_conformal",
+      "mean": 0.9104444444444444,
+      "std": 0.009355981591174234,
+      "min": 0.8953333333333333,
+      "max": 0.926
+    },
+    {
+      "method": "normal",
+      "mean": 0.8706666666666667,
+      "std": 0.01207647588666784,
+      "min": 0.846,
+      "max": 0.888
+    },
+    {
+      "method": "split_conformal",
+      "mean": 0.9020444444444444,
+      "std": 0.01771819380000092,
+      "min": 0.874,
+      "max": 0.9306666666666666
+    }
+  ]
+}

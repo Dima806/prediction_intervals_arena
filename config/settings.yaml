@@ -1,0 +1,12 @@
+# Single source of truth for coverage levels, data sizes, and seeds.
+# Loaded by src/config.py (pydantic-settings). Override any field with an
+# environment variable prefixed PIA_ (e.g. PIA_NOMINAL_COVERAGE=0.95).
+
+nominal_coverage: 0.90      # the interval promises to contain the truth this often
+seed: 42                    # seeds data generation and calibration splits
+n_samples: 5000             # rows per synthetic dataset
+test_fraction: 0.30         # held-out fraction used to measure coverage
+calibration_fraction: 0.25  # fraction of the training split used for conformal calibration
+n_bootstrap: 100            # bootstrap refits
+n_bins: 10                  # bins for conditional-coverage-by-region
+base_scale: 2.0             # base noise standard deviation

@@ -1,0 +1,191 @@
+{
+  "nominal_coverage": 0.9,
+  "methods": {
+    "normal": {
+      "coverage": 0.881,
+      "mean_width": 15.00665777970229,
+      "conditional": [
+        {
+          "bin": 0.0,
+          "center": 0.6400713245407627,
+          "coverage": 1.0,
+          "mean_width": 15.006657779702287,
+          "count": 250.0
+        },
+        {
+          "bin": 1.0,
+          "center": 1.8421591840310212,
+          "coverage": 1.0,
+          "mean_width": 15.006657779702287,
+          "count": 250.0
+        },
+        {
+          "bin": 2.0,
+          "center": 2.9680680434013813,
+          "coverage": 0.996,
+          "mean_width": 15.00665777970229,
+          "count": 250.0
+        },
+        {
+          "bin": 3.0,
+          "center": 4.211151550195158,
+          "coverage": 0.964,
+          "mean_width": 15.00665777970229,
+          "count": 250.0
+        },
+        {
+          "bin": 4.0,
+          "center": 5.472674138153186,
+          "coverage": 0.876,
+          "mean_width": 15.00665777970229,
+          "count": 250.0
+        },
+        {
+          "bin": 5.0,
+          "center": 6.6932303406237885,
+          "coverage": 0.86,
+          "mean_width": 15.00665777970229,
+          "count": 250.0
+        },
+        {
+          "bin": 6.0,
+          "center": 7.968197338401236,
+          "coverage": 0.696,
+          "mean_width": 15.006657779702287,
+          "count": 250.0
+        },
+        {
+          "bin": 7.0,
+          "center": 9.258740266711666,
+          "coverage": 0.656,
+          "mean_width": 15.006657779702287,
+          "count": 250.0
+        }
+      ]
+    },
+    "quantile_regression": {
+      "coverage": 0.931,
+      "mean_width": 15.116728338926402,
+      "conditional": [
+        {
+          "bin": 0.0,
+          "center": 0.6400713245407627,
+          "coverage": 0.992,
+          "mean_width": 5.871257961470012,
+          "count": 250.0
+        },
+        {
+          "bin": 1.0,
+          "center": 1.8421591840310212,
+          "coverage": 0.952,
+          "mean_width": 8.093839207668594,
+          "count": 250.0
+        },
+        {
+          "bin": 2.0,
+          "center": 2.9680680434013813,
+          "coverage": 0.952,
+          "mean_width": 10.353167716792628,
+          "count": 250.0
+        },
+        {
+          "bin": 3.0,
+          "center": 4.211151550195158,
+          "coverage": 0.92,
+          "mean_width": 13.047173491681674,
+          "count": 250.0
+        },
+        {
+          "bin": 4.0,
+          "center": 5.472674138153186,
+          "coverage": 0.896,
+          "mean_width": 15.989154737490411,
+          "count": 250.0
+        },
+        {
+          "bin": 5.0,
+          "center": 6.6932303406237885,
+          "coverage": 0.924,
+          "mean_width": 19.038784535796584,
+          "count": 250.0
+        },
+        {
+          "bin": 6.0,
+          "center": 7.968197338401236,
+          "coverage": 0.896,
+          "mean_width": 22.438154723867665,
+          "count": 250.0
+        },
+        {
+          "bin": 7.0,
+          "center": 9.258740266711666,
+          "coverage": 0.916,
+          "mean_width": 26.102294336643638,
+          "count": 250.0
+        }
+      ]
+    },
+    "gbm_quantile": {
+      "coverage": 0.9,
+      "mean_width": 13.650442548822754,
+      "conditional": [
+        {
+          "bin": 0.0,
+          "center": 0.6400713245407627,
+          "coverage": 0.9,
+          "mean_width": 2.5580738578066846,
+          "count": 250.0
+        },
+        {
+          "bin": 1.0,
+          "center": 1.8421591840310212,
+          "coverage": 0.94,
+          "mean_width": 6.126651888755194,
+          "count": 250.0
+        },
+        {
+          "bin": 2.0,
+          "center": 2.9680680434013813,
+          "coverage": 0.916,
+          "mean_width": 8.53171120281747,
+          "count": 250.0
+        },
+        {
+          "bin": 3.0,
+          "center": 4.211151550195158,
+          "coverage": 0.888,
+          "mean_width": 11.161487827160856,
+          "count": 250.0
+        },
+        {
+          "bin": 4.0,
+          "center": 5.472674138153186,
+          "coverage": 0.864,
+          "mean_width": 15.152783304307903,
+          "count": 250.0
+        },
+        {
+          "bin": 5.0,
+          "center": 6.6932303406237885,
+          "coverage": 0.92,
+          "mean_width": 18.678482658956728,
+          "count": 250.0
+        },
+        {
+          "bin": 6.0,
+          "center": 7.968197338401236,
+          "coverage": 0.892,
+          "mean_width": 22.681900841347023,
+          "count": 250.0
+        },
+        {
+          "bin": 7.0,
+          "center": 9.258740266711666,
+          "coverage": 0.88,
+          "mean_width": 24.312448809430162,
+          "count": 250.0
+        }
+      ]
+    }
+  }
+}

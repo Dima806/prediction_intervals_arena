@@ -1,0 +1,50 @@
+[project]
+name = "prediction-intervals-arena"
+version = "0.1.0"
+description = "Your regression model gives you a number. It should give you a range."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+dependencies = [
+    "scikit-learn>=1.5",
+    "numpy>=1.26",
+    "scipy>=1.14",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "plotly>=5.22",
+    "streamlit>=1.38",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.5",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "pytest-cov>=5.0",
+    "ruff>=0.8",
+    "ty>=0.0.1a7",
+    "jupyter>=1.1",
+    "ipykernel>=6.29",
+    "nbconvert>=7.16",
+    "nbclient>=0.10",
+]
+
+# The importable package is `src` (src/__init__.py). The project is not built or
+# installed as a distribution, so no build backend is required.
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py311"
+line-length = 99
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "N", "B", "A", "SIM", "PTH"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+# Put the repo root on sys.path so tests can `import src...` without installation.
+pythonpath = ["."]

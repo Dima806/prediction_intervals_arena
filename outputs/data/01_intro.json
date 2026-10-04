@@ -1,0 +1,10 @@
+{
+  "x0": 8.0,
+  "point_prediction": 28.213542833832246,
+  "interval_at_x0": [
+    20.810275776727337,
+    35.616809890937155
+  ],
+  "nominal_coverage": 0.9,
+  "empirical_coverage_naive_normal": 0.866
+}

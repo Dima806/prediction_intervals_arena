@@ -1,0 +1,130 @@
+{
+  "nominal_coverage": 0.9,
+  "homoscedastic": {
+    "overall_coverage": 0.895,
+    "conditional": [
+      {
+        "bin": 0.0,
+        "center": 0.6400713245407627,
+        "coverage": 0.9,
+        "mean_width": 6.429249631710441,
+        "count": 250.0
+      },
+      {
+        "bin": 1.0,
+        "center": 1.8421591840310212,
+        "coverage": 0.9,
+        "mean_width": 6.429249631710442,
+        "count": 250.0
+      },
+      {
+        "bin": 2.0,
+        "center": 2.9680680434013813,
+        "coverage": 0.892,
+        "mean_width": 6.42924963171044,
+        "count": 250.0
+      },
+      {
+        "bin": 3.0,
+        "center": 4.211151550195158,
+        "coverage": 0.928,
+        "mean_width": 6.42924963171044,
+        "count": 250.0
+      },
+      {
+        "bin": 4.0,
+        "center": 5.472674138153186,
+        "coverage": 0.868,
+        "mean_width": 6.42924963171044,
+        "count": 250.0
+      },
+      {
+        "bin": 5.0,
+        "center": 6.6932303406237885,
+        "coverage": 0.904,
+        "mean_width": 6.42924963171044,
+        "count": 250.0
+      },
+      {
+        "bin": 6.0,
+        "center": 7.968197338401236,
+        "coverage": 0.864,
+        "mean_width": 6.42924963171044,
+        "count": 250.0
+      },
+      {
+        "bin": 7.0,
+        "center": 9.258740266711666,
+        "coverage": 0.904,
+        "mean_width": 6.429249631710442,
+        "count": 250.0
+      }
+    ]
+  },
+  "heteroscedastic": {
+    "overall_coverage": 0.881,
+    "volatile_region_coverage": 0.656,
+    "calm_region_coverage": 1.0,
+    "conditional": [
+      {
+        "bin": 0.0,
+        "center": 0.6400713245407627,
+        "coverage": 1.0,
+        "mean_width": 15.006657779702287,
+        "count": 250.0
+      },
+      {
+        "bin": 1.0,
+        "center": 1.8421591840310212,
+        "coverage": 1.0,
+        "mean_width": 15.006657779702287,
+        "count": 250.0
+      },
+      {
+        "bin": 2.0,
+        "center": 2.9680680434013813,
+        "coverage": 0.996,
+        "mean_width": 15.00665777970229,
+        "count": 250.0
+      },
+      {
+        "bin": 3.0,
+        "center": 4.211151550195158,
+        "coverage": 0.964,
+        "mean_width": 15.00665777970229,
+        "count": 250.0
+      },
+      {
+        "bin": 4.0,
+        "center": 5.472674138153186,
+        "coverage": 0.876,
+        "mean_width": 15.00665777970229,
+        "count": 250.0
+      },
+      {
+        "bin": 5.0,
+        "center": 6.6932303406237885,
+        "coverage": 0.86,
+        "mean_width": 15.00665777970229,
+        "count": 250.0
+      },
+      {
+        "bin": 6.0,
+        "center": 7.968197338401236,
+        "coverage": 0.696,
+        "mean_width": 15.006657779702287,
+        "count": 250.0
+      },
+      {
+        "bin": 7.0,
+        "center": 9.258740266711666,
+        "coverage": 0.656,
+        "mean_width": 15.006657779702287,
+        "count": 250.0
+      }
+    ]
+  },
+  "skewed": {
+    "overall_coverage": 0.9095
+  }
+}
